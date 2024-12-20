@@ -1,0 +1,16 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.parkinsans {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Ensure it's above other content */
+  background-color: white; /* Optional: Set a background color to prevent content underneath from showing through */
+}
